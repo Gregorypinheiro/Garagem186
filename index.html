@@ -9,12 +9,16 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<link href="https://db.onlinewebfonts.com/c/23fe921c6f711d75677bd6b351ac9418?family=Daimler+CS+Regular" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="navbar navbar-expand-lg sticky-top p-3" id="cabecalho">
         <div class="container">
-            <h1 class="navbar-brand m-0 section-title">Nome do restaurante</h1>
+            <img class="me-3" src="images/logo_mercedes_benz.png" alt="">
+            <h1 class="navbar-brand m-0 section-title">Garagem186</h1>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -23,19 +27,19 @@
                     <li class="nav-item fw-bold">
                         <a href="#sobre-o-restaurante" class="nav-link">
                         <i class="bi bi-house-door me-1"></i>
-                        Sobre o restaurante
+                        Sobre concessionária
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
                         <a href="#eventos" class="nav-link">
                         <i class="bi bi-calendar-check me-1"></i>
-                        Eventos
+                        Serviços
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
                         <a href="#cardapio" class="nav-link">
                             <i class="bi bi-card-text me-1"></i>
-                            Nosso cardápio
+                            Veículos
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
@@ -53,13 +57,13 @@
             <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="3000">
-                        <img src="./images/slides/slide1.png" alt="foto do espaço do restaurante">
+                        <img src="./images/slides/automobile-8923077_1920.jpg" alt="foto do espaço do restaurante">
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                        <img src="./images/slides/slide2.png" alt="duas taças de vinho">
+                        <img src="images/slides/lamborghini-4815249_1920.jpg" alt="duas taças de vinho">
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                        <img src="./images/slides/slide3.png" alt="uma mesa de comida">
+                        <img src="./images/slides/ferrari.png" alt="uma mesa de comida">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -78,10 +82,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-5">
-                            <img src="./images/restaurante.jpg" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                            <img src="./images/loja 1280x848.png" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
                         </div>
                         <div class="col-md-7 mt-3 mt-md-0">
-                            <h2 class="section-title" >Sobre <span class="text-colored">o restaurante</span></h2>
+                            <h2 class="section-title" >Sobre <span class="text-colored">a loja</span></h2>
                             <p>
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero esse est natus nobis adipisci nisi rem temporibus error aut modi similique vitae atque corporis inventore saepe porro, dignissimos aliquid voluptate.
                             </p>
@@ -102,34 +106,44 @@
         <section id="eventos" class="pt-5 pb-5">
             <div class="container">
                 <div class="row">
-                    <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+                    <h2 class="section-title text-center">Para todos <span class="text-colored">amantes de carros</span></h2>
                 </div>
                 <div class="row mt-4">
-                    <div class="col-md-4">
-                        <img src="./images/eventos/aniversario.jpg" alt="" class="d-block w-100 rounded mb-2">
+                    <div class="col-md-3">
+                        <img src="./images/vendas/foto1.png" alt="" class="d-block w-100 rounded mb-2">
                         <h3 class="section-title fs-4">
-                            <i class="bi bi-calendar-heart-fill"></i>
-                            Aniversárido
+                            <i class="bi bi-car-front-fill"></i>
+                            Novos e seminovos
                         </h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta qui asperiores, rem dolor non nam consequatur blanditiis earum enim, quis laboriosam, alias placeat praesentium necessitatibus. Impedit labore natus rerum corrupti.
                         </p>
                     </div>
-                    <div class="col-md-4">
-                        <img src="./images/eventos/casamento.jpg" alt="" class="d-block w-100 rounded mb-2">
+                    <div class="col-md-3">
+                        <img src="./images/vendas/eletrico.jpg" alt="" class="d-block w-100 rounded mb-2">
                         <h3 class="section-title fs-4">
-                            <i class="bi bi-arrow-through-heart-fill"></i>
-                            Recepção para casamentos
+                            <i class="bi bi-ev-front-fill"></i>
+                            Veículos Elétricos
                         </h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta qui asperiores, rem dolor non nam consequatur blanditiis earum enim, quis laboriosam, alias placeat praesentium necessitatibus. Impedit labore natus rerum corrupti.
                         </p>
                     </div>
-                    <div class="col-md-4">
-                        <img src="./images/eventos/confraternizacoes.jpg" alt="" class="d-block w-100 rounded mb-2">
+                    <div class="col-md-3">
+                        <img src="./images/vendas/oficina.png" alt="" class="d-block w-100 rounded mb-2">
                         <h3 class="section-title fs-4">
-                            <i class="bi bi-people-fill"></i>
-                            Confraternizações
+                            <i class="bi bi-wrench-adjustable"></i>
+                            Ofícina
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta qui asperiores, rem dolor non nam consequatur blanditiis earum enim, quis laboriosam, alias placeat praesentium necessitatibus. Impedit labore natus rerum corrupti.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./images/vendas/vitrificacao.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title fs-4">
+                            <i class="bi bi-paint-bucket"></i>
+                            Vitrificação Automotiva
                         </h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta qui asperiores, rem dolor non nam consequatur blanditiis earum enim, quis laboriosam, alias placeat praesentium necessitatibus. Impedit labore natus rerum corrupti.
@@ -142,17 +156,17 @@
             <div class="container">
                 <div class="row">
                     <h2 class="section-title text-center mb-5">
-                        Nosso <span class="text-colored">cardápio</span>
+                        Nossos <span class="text-colored">veículos</span>
                     </h2>
                 </div>
                 <div class="row">
                     <aside class="col-md-2">
                         <nav class="nav nav-pills flex-column nav-cardapio">
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start nav-link text-colored active">Bebidas não alcoólicas</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-start nav-link text-colored">Bebidas alcoólicas</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored">Entradas</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="fw-bold text-start nav-link text-colored">Pratos principais</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored">Sobremesas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start nav-link text-colored active">Sedans</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-start nav-link text-colored">SUV</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored">Coupés</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="fw-bold text-start nav-link text-colored">Elétricos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored"></button>
                         </nav>
                     </aside>
                     <div class="col-md-10">
@@ -160,45 +174,17 @@
                             <div class="tab-pane active" id="bebidas-sem-alcool">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/cardapio/bebidas/coca-cola.jpg" alt="coca cola" />
-                                        <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
+                                        <img class="d-block w-100" src="images/carrocaria/sedans/classe c sedan.png" alt="coca cola" />
+                                        <h5 class="text-colored fw-bold mt-2">Casse C Sedan</h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Mercedes-Benz Classe C Sedan.
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/cardapio/bebidas/suco.jpg" alt="suco de laranja" />
-                                        <h5 class="text-colored fw-bold mt-2">Suco de laranja</h5>
+                                        <img class="d-block w-100" src="images/carrocaria/sedans/Mercedes-AMG S 63 E Performance.png" alt="suco de laranja" />
+                                        <h5 class="text-colored fw-bold mt-2">Classe S Sedan Longo</h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/cardapio/bebidas/coca-cola.jpg" alt="coca cola" />
-                                        <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/cardapio/bebidas/coca-cola.jpg" alt="coca cola" />
-                                        <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/cardapio/bebidas/coca-cola.jpg" alt="coca cola" />
-                                        <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        </p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/cardapio/bebidas/coca-cola.jpg" alt="coca cola" />
-                                        <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Mercedes-AMG S 63 E Performance
                                         </p>
                                     </div>
                                 </div>
