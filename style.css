@@ -41,12 +41,12 @@ body {
 
 .nav-cardapio .nav-link.active,
 #fale-conosco button {
-    background-color: #e15f41;
+    background-color: #7e7d7d;
     color: #fff;
 }
 
 .nav-cardapio .nav-link:hover {
-    color: #e15f41;
+    color: #fff;
 }
 
 .social-links li {
@@ -66,6 +66,10 @@ body {
 .btn:hover {
     border: 2px solid #ff8800; /* Altera a cor da borda ao passar o mouse */
     transform: scale(0.95); /* Diminui ligeiramente o tamanho do botão */
+}
+
+.fotos:hover{
+    transform: scale(1.05);
 }
 
 @media (max-width: 767px) {
