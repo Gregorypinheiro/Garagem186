@@ -3,21 +3,21 @@ $(document).ready(function(){
         placeholder: '(__) _____-____'
     });
 
-    $.validator.addMethod("doisNumerosMinimo", function(value, element) {
+    $.validator.addMethod("doisNomesMinimo", function(value, element) {
         var nomes = value.trim().split(" ");
         return nomes.length >= 2;
     }, "Por favor, insira pelo menos dois nomes.");
 
     $validator.addMethod("onzeNumerosMinimo", function(value, element){
-        var numercValue = value.replace(/\D/g, '');
-        return numercValue.length === 11;
+        var numericValue = value.replace(/\D/g, '');
+        return numericValue.length === 11;
     }, "Por favor, todos os onze digitos.");
 
     $('#cadastro-form').validate({
         rules: {
             nome: {
                 required: true,
-                doisNumerosMinimo: true
+                doisNomesMinimo: true
             },
             email: {
                 required: true,
