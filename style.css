@@ -19,7 +19,7 @@ body {
 }
 
 .navbar-toggler {
-    background-color: #ffeae6;
+    background-color: #fcf8f7;
 }
 
 .section-title {
@@ -80,9 +80,36 @@ body {
     transform: scale(1.05);
 }
 
+/* Ajuste geral para garantir que as imagens sejam fluidas e se adaptem ao container */
+.carousel-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Faz com que a imagem cubra o container sem distorcer */
+}
+
+
 @media (max-width: 767px) {
     .carousel-item img {
-        height: 280px;
+        height: 200px;
+    }
+    #cabecalho .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #cabecalho img {
+        width: 50px; /* Reduz o tamanho da logo para caber melhor */
+        margin-right: 10px;
+    }
+
+    #cabecalho h1 {
+        font-size: 1.5rem; /* Ajusta o tamanho do título */
+        margin: 0;
+    }
+    
+    .navbar-toggler {
+        margin-left: auto;
     }
 }
 
@@ -94,5 +121,25 @@ body {
     #fale-conosco {
         margin-bottom: 300px;
     }
-    }   
+    #cabecalho .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #cabecalho img {
+        width: 50px; /* Reduz o tamanho da logo para caber melhor */
+        margin-right: 10px;
+    }
+
+    #cabecalho h1 {
+        font-size: 1.5rem; /* Ajusta o tamanho do título */
+        margin: 0;
+    }
     
+    .navbar-toggler {
+        margin-left: auto;
+    }
+    
+}   
+
