@@ -14,19 +14,19 @@ body {
 #cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover,
-.nav-cardapio .nav-link.active:hover {
+.nav-veiculos .nav-link.active:hover {
     color: #fff;
 }
 
 .navbar-toggler {
-    background-color: #fcf8f7;
+    background-color: #ffeae6;
 }
 
 .section-title {
     font-family: "Daimler CS Regular";
 }
 
-#sobre-o-restaurante, #cardapio {
+#sobre-a-concessionaria, #veiculos {
     background-color: #000;
     color: #fff;
 }
@@ -43,17 +43,13 @@ body {
     color: #c01616;
 }
 
-.nav-cardapio {
-    color: #e15f41;
-}
-
-.nav-cardapio .nav-link.active,
+.nav-veiculos .nav-link.active,
 #fale-conosco button {
     background-color: #7e7d7d;
     color: #fff;
 }
 
-.nav-cardapio .nav-link:hover {
+.nav-veiculos .nav-link:hover {
     color: #fff;
 }
 
