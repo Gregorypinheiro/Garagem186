@@ -8,7 +8,7 @@ $(document).ready(function(){
         return nomes.length >= 2;
     }, "Por favor, insira pelo menos dois nomes.");
 
-    $.validator.addMethod("onzeNumerosMinimo", function(value, element){
+    $validator.addMethod("onzeNumerosMinimo", function(value, element){
         var numericValue = value.replace(/\D/g, '');
         return numericValue.length === 11;
     }, "Por favor, todos os onze digitos.");
